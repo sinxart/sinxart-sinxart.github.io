@@ -1,0 +1,53 @@
+/* Général */
+html {
+    height: 100%;
+}
+
+body {
+	margin-top: 30px;
+	text-align: center;
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+	background-size: contain;
+    /* background-size: 50%; */
+    background-attachment: scroll;
+    overflow: hidden auto;
+	max-height : 100%;
+    background-image: url("images/bg.jpg");
+	text-decoration: none;
+}
+
+a, a:hover, a:active { 
+	color: white;
+	text-decoration: none; 
+}
+
+.button_pill {
+  background-color: rgba(51, 51, 51, 0.733);
+  color: rgb(255, 255, 255);
+  vertical-align: middle;
+  border: none;
+  padding: 10px 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 32px;
+}
+
+.button_pill:hover {
+    background-color: rgba(244, 78, 59, 0.733);
+	color: black;
+}
+
+/* Style font awesome icons */
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #404040;
+}
+
+.fa:hover {
+	color: rgba(244, 78, 59, 0.733);
+	text-decoration: none;
+}
